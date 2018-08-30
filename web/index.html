@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Compra Carro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method = "post" action = "Finalizar">
+            Nome:
+            <input type = "text" value = "" name = "nome"/><br><br>
+            CPF:
+            <input type = "text" value = "" name= "cpf"/><br><br>
+            Modelos: 
+            <br><input type = "radio" value = "ex" name = "modelos" checked = ""/> EX
+            <br><input type = "radio" value = "elx" name = "modelos"/> ELX
+            <br><input type = "radio" value = "master" name = "modelos"/> Master
+            
+            <br><br>Portas: 
+            <br><input type = "radio" value = "p2" name = "portas" checked = ""/> 2 Portas
+            <br><input type = "radio" value = "p4" name = "portas"/> 4 Portas
+            
+            <br><br>Acessórios:  
+            <br><input type = "checkbox" value = "arc" name = "acessorios"/> Ar Condicionado
+            <br><input type = "checkbox" value = "dir" name = "acessorios"/> Direção
+            <br><input type = "checkbox" value = "vete" name = "acessorios"/> VE/TE
+            
+            <br><br><button type = "submit"> Enviar </button>
+        </form>
+        
+    </body>
+</html>
